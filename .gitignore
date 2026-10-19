@@ -1,14 +1,11 @@
-# 1. Ignorar absolutamente todo en el repositorio
+# 1. Ignorar absolutamente todo por defecto
 *
 
-# 2. Excepción: no ignores este archivo específico
+# 2. Permitir que Git explore las estructuras de carpetas (CRUCIAL)
+!*/
+
+# 3. Excepción: No ignores tu archivo específico
 !RPA_Casos_HOLA_V1_0.ipynb
 
-# 3. Excepción: no ignores esta carpeta completa y todo su contenido
-#!mi-carpeta/
-
-# 4. Excepción: no ignores un tipo de archivo específico en una carpeta
-#!mi-carpeta/*.js
-
-# 5. IMPORTANTE: No ignores el propio archivo .gitignore
+# 4. No ignores el propio archivo .gitignore
 !.gitignore
