@@ -6,6 +6,7 @@
 
 # 3. Excepción: No ignores tu archivo específico
 !RPA_Casos_HOLA_V1_0.ipynb
+!RPA_SegmentacionSabanaDeDatos.ipynb
 
 # 4. No ignores el propio archivo .gitignore
 !.gitignore
